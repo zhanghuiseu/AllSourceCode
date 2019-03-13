@@ -1,0 +1,5 @@
+1.这个备份仅仅是把LFF Solver和PLFF Solver添加到Klee求解器后端；
+
+2.求解器的转换和之前的一样是通过读取配置文件LFFSolver.config来确定的，这个是在函数bool Z3SolverImpl::computeInitialValues中做的
+
+3.下一步的改变就是在求解器额调用地方bool Z3SolverImpl::internalRunSolver来完成相关函数的调用，所以先把之前的工作做了备份

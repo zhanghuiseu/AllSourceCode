@@ -1,0 +1,15 @@
+array DOUBLE_x[8] : w32 -> w8 = symbolic
+(query [(Eq false
+             (Eq 2047
+                 N0:(Extract w32 0 (And w64 (AShr w64 N1:(FPToSI w64 (ReadLSB w64 0 DOUBLE_x))
+                                                      52)
+                                            2047))))
+         (Eq false (Eq 0 N0))
+         (Eq false (Sle N0 969))
+         (Eq false (Sle N0 1010))
+         (Eq false
+             (Eq 1
+                 (Extract w32 0 (And w64 (AShr w64 N1 63) 1))))
+         (Eq false (Slt N0 1023))
+         (Sle N0 1075)]
+        false)

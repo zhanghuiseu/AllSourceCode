@@ -1,0 +1,1899 @@
+# depslib dependency file v1.0
+1552287361 source:/home/zy/C++/KQueryParserC++/src/main.cpp
+	<iostream>
+	<string>
+	"IntervalPoint.h"
+	"LFFBuilder.h"
+	"PLFFBuilder.h"
+	"InverseIIBasedOIBuilder.h"
+	<unistd.h>
+	<sys/types.h>
+	<sys/wait.h>
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/antlr4-runtime.h
+	"antlr4-common.h"
+	"ANTLRErrorListener.h"
+	"ANTLRErrorStrategy.h"
+	"ANTLRFileStream.h"
+	"ANTLRInputStream.h"
+	"BailErrorStrategy.h"
+	"BaseErrorListener.h"
+	"BufferedTokenStream.h"
+	"CharStream.h"
+	"CommonToken.h"
+	"CommonTokenFactory.h"
+	"CommonTokenStream.h"
+	"ConsoleErrorListener.h"
+	"DefaultErrorStrategy.h"
+	"DiagnosticErrorListener.h"
+	"Exceptions.h"
+	"FailedPredicateException.h"
+	"InputMismatchException.h"
+	"IntStream.h"
+	"InterpreterRuleContext.h"
+	"Lexer.h"
+	"LexerInterpreter.h"
+	"LexerNoViableAltException.h"
+	"ListTokenSource.h"
+	"NoViableAltException.h"
+	"Parser.h"
+	"ParserInterpreter.h"
+	"ParserRuleContext.h"
+	"ProxyErrorListener.h"
+	"RecognitionException.h"
+	"Recognizer.h"
+	"RuleContext.h"
+	"RuleContextWithAltNum.h"
+	"RuntimeMetaData.h"
+	"Token.h"
+	"TokenFactory.h"
+	"TokenSource.h"
+	"TokenStream.h"
+	"TokenStreamRewriter.h"
+	"UnbufferedCharStream.h"
+	"UnbufferedTokenStream.h"
+	"Vocabulary.h"
+	"Vocabulary.h"
+	"WritableToken.h"
+	"atn/ATN.h"
+	"atn/ATNConfig.h"
+	"atn/ATNConfigSet.h"
+	"atn/ATNDeserializationOptions.h"
+	"atn/ATNDeserializer.h"
+	"atn/ATNSerializer.h"
+	"atn/ATNSimulator.h"
+	"atn/ATNState.h"
+	"atn/ATNType.h"
+	"atn/AbstractPredicateTransition.h"
+	"atn/ActionTransition.h"
+	"atn/AmbiguityInfo.h"
+	"atn/ArrayPredictionContext.h"
+	"atn/AtomTransition.h"
+	"atn/BasicBlockStartState.h"
+	"atn/BasicState.h"
+	"atn/BlockEndState.h"
+	"atn/BlockStartState.h"
+	"atn/ContextSensitivityInfo.h"
+	"atn/DecisionEventInfo.h"
+	"atn/DecisionInfo.h"
+	"atn/DecisionState.h"
+	"atn/EmptyPredictionContext.h"
+	"atn/EpsilonTransition.h"
+	"atn/ErrorInfo.h"
+	"atn/LL1Analyzer.h"
+	"atn/LexerATNConfig.h"
+	"atn/LexerATNSimulator.h"
+	"atn/LexerAction.h"
+	"atn/LexerActionExecutor.h"
+	"atn/LexerActionType.h"
+	"atn/LexerChannelAction.h"
+	"atn/LexerCustomAction.h"
+	"atn/LexerIndexedCustomAction.h"
+	"atn/LexerModeAction.h"
+	"atn/LexerMoreAction.h"
+	"atn/LexerPopModeAction.h"
+	"atn/LexerPushModeAction.h"
+	"atn/LexerSkipAction.h"
+	"atn/LexerTypeAction.h"
+	"atn/LookaheadEventInfo.h"
+	"atn/LoopEndState.h"
+	"atn/NotSetTransition.h"
+	"atn/OrderedATNConfigSet.h"
+	"atn/ParseInfo.h"
+	"atn/ParserATNSimulator.h"
+	"atn/PlusBlockStartState.h"
+	"atn/PlusLoopbackState.h"
+	"atn/PrecedencePredicateTransition.h"
+	"atn/PredicateEvalInfo.h"
+	"atn/PredicateTransition.h"
+	"atn/PredictionContext.h"
+	"atn/PredictionMode.h"
+	"atn/ProfilingATNSimulator.h"
+	"atn/RangeTransition.h"
+	"atn/RuleStartState.h"
+	"atn/RuleStopState.h"
+	"atn/RuleTransition.h"
+	"atn/SemanticContext.h"
+	"atn/SetTransition.h"
+	"atn/SingletonPredictionContext.h"
+	"atn/StarBlockStartState.h"
+	"atn/StarLoopEntryState.h"
+	"atn/StarLoopbackState.h"
+	"atn/TokensStartState.h"
+	"atn/Transition.h"
+	"atn/WildcardTransition.h"
+	"dfa/DFA.h"
+	"dfa/DFASerializer.h"
+	"dfa/DFAState.h"
+	"dfa/LexerDFASerializer.h"
+	"misc/Interval.h"
+	"misc/IntervalSet.h"
+	"misc/MurmurHash.h"
+	"misc/Predicate.h"
+	"support/Any.h"
+	"support/Arrays.h"
+	"support/BitSet.h"
+	"support/CPPUtils.h"
+	"support/StringUtils.h"
+	"support/guid.h"
+	"tree/AbstractParseTreeVisitor.h"
+	"tree/ErrorNode.h"
+	"tree/ErrorNodeImpl.h"
+	"tree/ParseTree.h"
+	"tree/ParseTreeListener.h"
+	"tree/ParseTreeProperty.h"
+	"tree/ParseTreeVisitor.h"
+	"tree/ParseTreeWalker.h"
+	"tree/TerminalNode.h"
+	"tree/TerminalNodeImpl.h"
+	"tree/Trees.h"
+	"tree/pattern/Chunk.h"
+	"tree/pattern/ParseTreeMatch.h"
+	"tree/pattern/ParseTreePattern.h"
+	"tree/pattern/ParseTreePatternMatcher.h"
+	"tree/pattern/RuleTagToken.h"
+	"tree/pattern/TagChunk.h"
+	"tree/pattern/TextChunk.h"
+	"tree/pattern/TokenTagToken.h"
+	"tree/xpath/XPath.h"
+	"tree/xpath/XPathElement.h"
+	"tree/xpath/XPathLexer.h"
+	"tree/xpath/XPathLexerErrorListener.h"
+	"tree/xpath/XPathRuleAnywhereElement.h"
+	"tree/xpath/XPathRuleElement.h"
+	"tree/xpath/XPathTokenAnywhereElement.h"
+	"tree/xpath/XPathTokenElement.h"
+	"tree/xpath/XPathWildcardAnywhereElement.h"
+	"tree/xpath/XPathWildcardElement.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/antlr4-common.h
+	<algorithm>
+	<assert.h>
+	<codecvt>
+	<chrono>
+	<fstream>
+	<iostream>
+	<iterator>
+	<limits.h>
+	<list>
+	<map>
+	<memory>
+	<set>
+	<stdarg.h>
+	<stdint.h>
+	<stdlib.h>
+	<sstream>
+	<stack>
+	<string>
+	<typeinfo>
+	<type_traits>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<vector>
+	<mutex>
+	<exception>
+	<bitset>
+	<condition_variable>
+	<functional>
+	"support/guid.h"
+	"support/Declarations.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/support/guid.h
+	<iostream>
+	<vector>
+	<sstream>
+	<string>
+	<iomanip>
+	<stdint.h>
+	<jni.h>
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/support/Declarations.h
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/ANTLRErrorListener.h
+	"RecognitionException.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/RecognitionException.h
+	"Exceptions.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/Exceptions.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/ANTLRErrorStrategy.h
+	"Token.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/Token.h
+	"IntStream.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/IntStream.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/ANTLRFileStream.h
+	"ANTLRInputStream.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/ANTLRInputStream.h
+	"CharStream.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/CharStream.h
+	"IntStream.h"
+	"misc/Interval.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/misc/Interval.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/BailErrorStrategy.h
+	"DefaultErrorStrategy.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/DefaultErrorStrategy.h
+	"ANTLRErrorStrategy.h"
+	"misc/IntervalSet.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/misc/IntervalSet.h
+	"misc/Interval.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/BaseErrorListener.h
+	"ANTLRErrorListener.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/BufferedTokenStream.h
+	"TokenStream.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/TokenStream.h
+	"IntStream.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/CommonToken.h
+	"WritableToken.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/WritableToken.h
+	"Token.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/CommonTokenFactory.h
+	"TokenFactory.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/TokenFactory.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/CommonTokenStream.h
+	"BufferedTokenStream.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/ConsoleErrorListener.h
+	"BaseErrorListener.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/DiagnosticErrorListener.h
+	"BaseErrorListener.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/FailedPredicateException.h
+	"RecognitionException.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/InputMismatchException.h
+	"RecognitionException.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/InterpreterRuleContext.h
+	"ParserRuleContext.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/ParserRuleContext.h
+	"RuleContext.h"
+	"support/CPPUtils.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/RuleContext.h
+	"tree/ParseTree.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/ParseTree.h
+	"support/Any.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/support/Any.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/support/CPPUtils.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/Lexer.h
+	"Recognizer.h"
+	"TokenSource.h"
+	"CharStream.h"
+	"Token.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/Recognizer.h
+	"ProxyErrorListener.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/ProxyErrorListener.h
+	"ANTLRErrorListener.h"
+	"Exceptions.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/TokenSource.h
+	"TokenFactory.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/LexerInterpreter.h
+	"Lexer.h"
+	"atn/PredictionContext.h"
+	"Vocabulary.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/PredictionContext.h
+	"Recognizer.h"
+	"atn/ATN.h"
+	"atn/ATNState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ATN.h
+	"RuleContext.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ATNState.h
+	"misc/IntervalSet.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/Vocabulary.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/LexerNoViableAltException.h
+	"RecognitionException.h"
+	"atn/ATNConfigSet.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ATNConfigSet.h
+	"support/BitSet.h"
+	"atn/PredictionContext.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/support/BitSet.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/ListTokenSource.h
+	"TokenSource.h"
+	"CommonTokenFactory.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/NoViableAltException.h
+	"RecognitionException.h"
+	"Token.h"
+	"atn/ATNConfigSet.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/Parser.h
+	"Recognizer.h"
+	"tree/ParseTreeListener.h"
+	"tree/ParseTree.h"
+	"TokenStream.h"
+	"TokenSource.h"
+	"misc/Interval.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/ParseTreeListener.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/ParserInterpreter.h
+	"Parser.h"
+	"atn/ATN.h"
+	"support/BitSet.h"
+	"atn/PredictionContext.h"
+	"Vocabulary.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/RuleContextWithAltNum.h
+	"ParserRuleContext.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/RuntimeMetaData.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/TokenStreamRewriter.h
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/UnbufferedCharStream.h
+	"CharStream.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/UnbufferedTokenStream.h
+	"TokenStream.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ATNConfig.h
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ATNDeserializationOptions.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ATNDeserializer.h
+	"atn/LexerAction.h"
+	"atn/ATNDeserializationOptions.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LexerAction.h
+	"atn/LexerActionType.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LexerActionType.h
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ATNSerializer.h
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ATNSimulator.h
+	"atn/ATN.h"
+	"misc/IntervalSet.h"
+	"support/CPPUtils.h"
+	"atn/PredictionContext.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ATNType.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/AbstractPredicateTransition.h
+	"atn/Transition.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/Transition.h
+	"misc/IntervalSet.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ActionTransition.h
+	"atn/Transition.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/AmbiguityInfo.h
+	"atn/DecisionEventInfo.h"
+	"support/BitSet.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/DecisionEventInfo.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ArrayPredictionContext.h
+	"atn/PredictionContext.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/AtomTransition.h
+	"atn/Transition.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/BasicBlockStartState.h
+	"antlr4-common.h"
+	"atn/BlockStartState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/BlockStartState.h
+	"atn/DecisionState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/DecisionState.h
+	"atn/ATNState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/BasicState.h
+	"atn/ATNState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/BlockEndState.h
+	"atn/ATNState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ContextSensitivityInfo.h
+	"atn/DecisionEventInfo.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/DecisionInfo.h
+	"atn/ContextSensitivityInfo.h"
+	"atn/AmbiguityInfo.h"
+	"atn/PredicateEvalInfo.h"
+	"atn/ErrorInfo.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/PredicateEvalInfo.h
+	"atn/DecisionEventInfo.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ErrorInfo.h
+	"atn/DecisionEventInfo.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/EmptyPredictionContext.h
+	"atn/SingletonPredictionContext.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/SingletonPredictionContext.h
+	"atn/PredictionContext.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/EpsilonTransition.h
+	"atn/Transition.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LL1Analyzer.h
+	"Token.h"
+	"support/BitSet.h"
+	"atn/PredictionContext.h"
+	"atn/ATNConfig.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LexerATNConfig.h
+	"atn/ATNConfig.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LexerATNSimulator.h
+	"atn/ATNSimulator.h"
+	"atn/LexerATNConfig.h"
+	"atn/ATNConfigSet.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LexerActionExecutor.h
+	"CharStream.h"
+	"atn/LexerAction.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LexerChannelAction.h
+	"atn/LexerAction.h"
+	"atn/LexerActionType.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LexerCustomAction.h
+	"atn/LexerAction.h"
+	"atn/LexerActionType.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LexerIndexedCustomAction.h
+	"RuleContext.h"
+	"atn/LexerAction.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LexerModeAction.h
+	"atn/LexerAction.h"
+	"atn/LexerActionType.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LexerMoreAction.h
+	"atn/LexerAction.h"
+	"atn/LexerActionType.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LexerPopModeAction.h
+	"atn/LexerAction.h"
+	"atn/LexerActionType.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LexerPushModeAction.h
+	"atn/LexerAction.h"
+	"atn/LexerActionType.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LexerSkipAction.h
+	"atn/LexerAction.h"
+	"atn/LexerActionType.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LexerTypeAction.h
+	"atn/LexerActionType.h"
+	"atn/LexerAction.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LookaheadEventInfo.h
+	"atn/DecisionEventInfo.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/LoopEndState.h
+	"atn/ATNState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/NotSetTransition.h
+	"atn/SetTransition.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/SetTransition.h
+	"atn/Transition.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/OrderedATNConfigSet.h
+	"atn/ATNConfigSet.h"
+	"atn/ATNConfig.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ParseInfo.h
+	"atn/DecisionInfo.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ParserATNSimulator.h
+	"PredictionMode.h"
+	"dfa/DFAState.h"
+	"atn/ATNSimulator.h"
+	"atn/PredictionContext.h"
+	"SemanticContext.h"
+	"atn/ATNConfig.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/PredictionMode.h
+	"support/BitSet.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/dfa/DFAState.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/SemanticContext.h
+	"Recognizer.h"
+	"support/CPPUtils.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/PlusBlockStartState.h
+	"atn/BlockStartState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/PlusLoopbackState.h
+	"atn/DecisionState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/PrecedencePredicateTransition.h
+	"atn/AbstractPredicateTransition.h"
+	"SemanticContext.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/PredicateTransition.h
+	"atn/AbstractPredicateTransition.h"
+	"SemanticContext.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/ProfilingATNSimulator.h
+	"atn/ParserATNSimulator.h"
+	"atn/DecisionInfo.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/RangeTransition.h
+	"atn/Transition.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/RuleStartState.h
+	"atn/ATNState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/RuleStopState.h
+	"atn/ATNState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/RuleTransition.h
+	"atn/Transition.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/StarBlockStartState.h
+	"atn/BlockStartState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/StarLoopEntryState.h
+	"atn/DecisionState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/StarLoopbackState.h
+	"atn/ATNState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/TokensStartState.h
+	"atn/DecisionState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/atn/WildcardTransition.h
+	"atn/Transition.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/dfa/DFA.h
+	"dfa/DFAState.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/dfa/DFASerializer.h
+	"Vocabulary.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/dfa/LexerDFASerializer.h
+	"dfa/DFASerializer.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/misc/MurmurHash.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/misc/Predicate.h
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/support/Arrays.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/support/StringUtils.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/AbstractParseTreeVisitor.h
+	"tree/ParseTreeVisitor.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/ParseTreeVisitor.h
+	"support/Any.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/ErrorNode.h
+	"tree/TerminalNode.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/TerminalNode.h
+	"tree/ParseTree.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/ErrorNodeImpl.h
+	"tree/ErrorNode.h"
+	"tree/TerminalNodeImpl.h"
+	"misc/Interval.h"
+	"support/Any.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/TerminalNodeImpl.h
+	"tree/TerminalNode.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/ParseTreeProperty.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/ParseTreeWalker.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/Trees.h
+	"tree/TerminalNode.h"
+	"ParserRuleContext.h"
+	"Recognizer.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/pattern/Chunk.h
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/pattern/ParseTreeMatch.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/pattern/ParseTreePattern.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/pattern/ParseTreePatternMatcher.h
+	"Exceptions.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/pattern/RuleTagToken.h
+	"Token.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/pattern/TagChunk.h
+	"Chunk.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/pattern/TextChunk.h
+	"Chunk.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/pattern/TokenTagToken.h
+	"CommonToken.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/xpath/XPath.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/xpath/XPathElement.h
+	"antlr4-common.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/xpath/XPathLexer.h
+	"antlr4-runtime.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/xpath/XPathLexerErrorListener.h
+	"BaseErrorListener.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/xpath/XPathRuleAnywhereElement.h
+	"XPathElement.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/xpath/XPathRuleElement.h
+	"XPathElement.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/xpath/XPathTokenAnywhereElement.h
+	"XPathElement.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/xpath/XPathTokenElement.h
+	"XPathElement.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/xpath/XPathWildcardAnywhereElement.h
+	"XPathElement.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/xpath/XPathWildcardElement.h
+	"XPathElement.h"
+
+1524719439 /home/zy/C++/KQueryParserC++/include/parser/KQueryLexer.h
+	"antlr4-runtime.h"
+
+1524719439 /home/zy/C++/KQueryParserC++/include/parser/KQueryParser.h
+	"antlr4-runtime.h"
+
+1524719439 source:/home/zy/C++/KQueryParserC++/src/parser/KQueryBaseListener.cpp
+	"KQueryBaseListener.h"
+
+1524719439 /home/zy/C++/KQueryParserC++/include/parser/KQueryBaseListener.h
+	"antlr4-runtime.h"
+	"KQueryListener.h"
+
+1524719439 /home/zy/C++/KQueryParserC++/include/parser/KQueryListener.h
+	"antlr4-runtime.h"
+	"KQueryParser.h"
+
+1524719439 source:/home/zy/C++/KQueryParserC++/src/parser/KQueryBaseVisitor.cpp
+	"KQueryBaseVisitor.h"
+
+1524719439 /home/zy/C++/KQueryParserC++/include/parser/KQueryBaseVisitor.h
+	"antlr4-runtime.h"
+	"KQueryVisitor.h"
+
+1524719439 /home/zy/C++/KQueryParserC++/include/parser/KQueryVisitor.h
+	"antlr4-runtime.h"
+	"KQueryParser.h"
+
+1524719439 source:/home/zy/C++/KQueryParserC++/src/parser/KQueryLexer.cpp
+	"KQueryLexer.h"
+
+1524719439 source:/home/zy/C++/KQueryParserC++/src/parser/KQueryListener.cpp
+	"KQueryListener.h"
+
+1524719439 source:/home/zy/C++/KQueryParserC++/src/parser/KQueryParser.cpp
+	"KQueryListener.h"
+	"KQueryVisitor.h"
+	"KQueryParser.h"
+
+1524719439 source:/home/zy/C++/KQueryParserC++/src/parser/KQueryVisitor.cpp
+	"KQueryVisitor.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/AbstractPredicateTransition.cpp
+	"atn/AbstractPredicateTransition.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ActionTransition.cpp
+	"atn/ActionTransition.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/AmbiguityInfo.cpp
+	"atn/AmbiguityInfo.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ANTLRFileStream.cpp
+	"support/StringUtils.h"
+	"ANTLRFileStream.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ANTLRInputStream.cpp
+	"Exceptions.h"
+	"misc/Interval.h"
+	"IntStream.h"
+	"support/StringUtils.h"
+	"support/CPPUtils.h"
+	"ANTLRInputStream.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ArrayPredictionContext.cpp
+	"support/Arrays.h"
+	"atn/SingletonPredictionContext.h"
+	"atn/ArrayPredictionContext.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/Arrays.cpp
+	"tree/ParseTree.h"
+	"Exceptions.h"
+	"support/Arrays.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ATN.cpp
+	"atn/LL1Analyzer.h"
+	"Token.h"
+	"atn/RuleTransition.h"
+	"misc/IntervalSet.h"
+	"RuleContext.h"
+	"atn/DecisionState.h"
+	"Recognizer.h"
+	"atn/ATNType.h"
+	"Exceptions.h"
+	"support/CPPUtils.h"
+	"atn/ATN.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ATNConfig.cpp
+	"misc/MurmurHash.h"
+	"atn/PredictionContext.h"
+	"SemanticContext.h"
+	"atn/ATNConfig.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ATNConfigSet.cpp
+	"atn/PredictionContext.h"
+	"atn/ATNConfig.h"
+	"atn/ATNSimulator.h"
+	"Exceptions.h"
+	"atn/SemanticContext.h"
+	"support/Arrays.h"
+	"atn/ATNConfigSet.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ATNDeserializationOptions.cpp
+	"atn/ATNDeserializationOptions.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ATNDeserializer.cpp
+	"atn/ATNDeserializationOptions.h"
+	"atn/ATNType.h"
+	"atn/ATNState.h"
+	"atn/ATN.h"
+	"atn/LoopEndState.h"
+	"atn/DecisionState.h"
+	"atn/RuleStartState.h"
+	"atn/RuleStopState.h"
+	"atn/TokensStartState.h"
+	"atn/RuleTransition.h"
+	"atn/EpsilonTransition.h"
+	"atn/PlusLoopbackState.h"
+	"atn/PlusBlockStartState.h"
+	"atn/StarLoopbackState.h"
+	"atn/BasicBlockStartState.h"
+	"atn/BasicState.h"
+	"atn/BlockEndState.h"
+	"atn/StarLoopEntryState.h"
+	"atn/AtomTransition.h"
+	"atn/StarBlockStartState.h"
+	"atn/RangeTransition.h"
+	"atn/PredicateTransition.h"
+	"atn/PrecedencePredicateTransition.h"
+	"atn/ActionTransition.h"
+	"atn/SetTransition.h"
+	"atn/NotSetTransition.h"
+	"atn/WildcardTransition.h"
+	"Token.h"
+	"misc/IntervalSet.h"
+	"Exceptions.h"
+	"support/CPPUtils.h"
+	"support/StringUtils.h"
+	"atn/LexerCustomAction.h"
+	"atn/LexerChannelAction.h"
+	"atn/LexerModeAction.h"
+	"atn/LexerMoreAction.h"
+	"atn/LexerPopModeAction.h"
+	"atn/LexerPushModeAction.h"
+	"atn/LexerSkipAction.h"
+	"atn/LexerTypeAction.h"
+	"atn/ATNDeserializer.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ATNSerializer.cpp
+	"misc/IntervalSet.h"
+	"atn/ATNType.h"
+	"atn/ATNState.h"
+	"atn/BlockEndState.h"
+	"atn/DecisionState.h"
+	"atn/RuleStartState.h"
+	"atn/LoopEndState.h"
+	"atn/BlockStartState.h"
+	"atn/Transition.h"
+	"atn/SetTransition.h"
+	"Token.h"
+	"misc/Interval.h"
+	"atn/ATN.h"
+	"atn/RuleTransition.h"
+	"atn/PrecedencePredicateTransition.h"
+	"atn/PredicateTransition.h"
+	"atn/RangeTransition.h"
+	"atn/AtomTransition.h"
+	"atn/ActionTransition.h"
+	"atn/ATNDeserializer.h"
+	"atn/TokensStartState.h"
+	"Exceptions.h"
+	"support/CPPUtils.h"
+	"atn/LexerChannelAction.h"
+	"atn/LexerCustomAction.h"
+	"atn/LexerModeAction.h"
+	"atn/LexerPushModeAction.h"
+	"atn/LexerTypeAction.h"
+	"Exceptions.h"
+	"atn/ATNSerializer.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ATNSimulator.cpp
+	"atn/ATNType.h"
+	"atn/ATNConfigSet.h"
+	"dfa/DFAState.h"
+	"atn/ATNDeserializer.h"
+	"atn/EmptyPredictionContext.h"
+	"atn/ATNSimulator.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ATNState.cpp
+	"atn/ATN.h"
+	"atn/Transition.h"
+	"misc/IntervalSet.h"
+	"support/CPPUtils.h"
+	"atn/ATNState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/AtomTransition.cpp
+	"misc/IntervalSet.h"
+	"atn/Transition.h"
+	"atn/AtomTransition.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/BailErrorStrategy.cpp
+	"Exceptions.h"
+	"ParserRuleContext.h"
+	"InputMismatchException.h"
+	"Parser.h"
+	"BailErrorStrategy.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/BaseErrorListener.cpp
+	"BaseErrorListener.h"
+	"RecognitionException.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/BasicBlockStartState.cpp
+	"atn/BasicBlockStartState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/BasicState.cpp
+	"atn/BasicState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/BlockEndState.cpp
+	"atn/BlockEndState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/BufferedTokenStream.cpp
+	"WritableToken.h"
+	"Lexer.h"
+	"RuleContext.h"
+	"misc/Interval.h"
+	"Exceptions.h"
+	"support/CPPUtils.h"
+	"BufferedTokenStream.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/CharStream.cpp
+	"CharStream.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/CommonToken.cpp
+	"TokenSource.h"
+	"CharStream.h"
+	"Recognizer.h"
+	"Vocabulary.h"
+	"misc/Interval.h"
+	"support/StringUtils.h"
+	"support/CPPUtils.h"
+	"CommonToken.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/CommonTokenFactory.cpp
+	"misc/Interval.h"
+	"CommonToken.h"
+	"CharStream.h"
+	"CommonTokenFactory.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/CommonTokenStream.cpp
+	"Token.h"
+	"CommonTokenStream.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ConsoleErrorListener.cpp
+	"ConsoleErrorListener.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ContextSensitivityInfo.cpp
+	"atn/ContextSensitivityInfo.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/CPPUtils.cpp
+	"support/CPPUtils.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/DecisionEventInfo.cpp
+	"atn/DecisionEventInfo.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/DecisionInfo.cpp
+	"atn/ErrorInfo.h"
+	"atn/LookaheadEventInfo.h"
+	"atn/DecisionInfo.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/DecisionState.cpp
+	"atn/DecisionState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/DefaultErrorStrategy.cpp
+	"NoViableAltException.h"
+	"misc/IntervalSet.h"
+	"atn/ParserATNSimulator.h"
+	"InputMismatchException.h"
+	"FailedPredicateException.h"
+	"ParserRuleContext.h"
+	"atn/RuleTransition.h"
+	"atn/ATN.h"
+	"atn/ATNState.h"
+	"Parser.h"
+	"CommonToken.h"
+	"Vocabulary.h"
+	"support/StringUtils.h"
+	"DefaultErrorStrategy.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/DFA.cpp
+	"dfa/DFASerializer.h"
+	"dfa/LexerDFASerializer.h"
+	"support/CPPUtils.h"
+	"atn/StarLoopEntryState.h"
+	"atn/ATNConfigSet.h"
+	"dfa/DFA.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/DFASerializer.cpp
+	"dfa/DFA.h"
+	"Vocabulary.h"
+	"dfa/DFASerializer.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/DFAState.cpp
+	"atn/ATNConfigSet.h"
+	"atn/SemanticContext.h"
+	"atn/ATNConfig.h"
+	"misc/MurmurHash.h"
+	"dfa/DFAState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/DiagnosticErrorListener.cpp
+	"atn/PredictionContext.h"
+	"atn/ATNConfig.h"
+	"atn/ATNConfigSet.h"
+	"Parser.h"
+	"misc/Interval.h"
+	"dfa/DFA.h"
+	"DiagnosticErrorListener.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/EmptyPredictionContext.cpp
+	"atn/EmptyPredictionContext.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/EpsilonTransition.cpp
+	"atn/EpsilonTransition.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ErrorInfo.cpp
+	"atn/ATNConfigSet.h"
+	"atn/ErrorInfo.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ErrorNodeImpl.cpp
+	"Exceptions.h"
+	"tree/ParseTreeVisitor.h"
+	"tree/ErrorNodeImpl.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/Exceptions.cpp
+	"Exceptions.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/FailedPredicateException.cpp
+	"atn/ParserATNSimulator.h"
+	"Parser.h"
+	"atn/PredicateTransition.h"
+	"atn/ATN.h"
+	"atn/ATNState.h"
+	"support/CPPUtils.h"
+	"FailedPredicateException.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/guid.cpp
+	"guid.h"
+	<uuid/uuid.h>
+	<CoreFoundation/CFUUID.h>
+	<objbase.h>
+	<jni.h>
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/InputMismatchException.cpp
+	"Parser.h"
+	"InputMismatchException.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/InterpreterRuleContext.cpp
+	"InterpreterRuleContext.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/Interval.cpp
+	"misc/Interval.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/IntervalSet.cpp
+	"misc/MurmurHash.h"
+	"Lexer.h"
+	"Exceptions.h"
+	"Vocabulary.h"
+	"misc/IntervalSet.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/IntStream.cpp
+	"IntStream.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/IterativeParseTreeWalker.cpp
+	"support/CPPUtils.h"
+	"tree/ParseTreeListener.h"
+	"tree/ParseTree.h"
+	"tree/ErrorNode.h"
+	"IterativeParseTreeWalker.h"
+
+1497255598 /home/zy/C++/KQueryParserC++/include/runtime/tree/IterativeParseTreeWalker.h
+	"antlr4-common.h"
+	"tree/ParseTreeWalker.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/Lexer.cpp
+	"atn/LexerATNSimulator.h"
+	"Exceptions.h"
+	"misc/Interval.h"
+	"CommonTokenFactory.h"
+	"LexerNoViableAltException.h"
+	"ANTLRErrorListener.h"
+	"support/CPPUtils.h"
+	"CommonToken.h"
+	"support/StringUtils.h"
+	"Lexer.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerActionExecutor.cpp
+	"misc/MurmurHash.h"
+	"atn/LexerIndexedCustomAction.h"
+	"support/CPPUtils.h"
+	"support/Arrays.h"
+	"atn/LexerActionExecutor.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerATNConfig.cpp
+	"misc/MurmurHash.h"
+	"atn/DecisionState.h"
+	"atn/PredictionContext.h"
+	"SemanticContext.h"
+	"atn/LexerActionExecutor.h"
+	"support/CPPUtils.h"
+	"atn/LexerATNConfig.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerATNSimulator.cpp
+	"IntStream.h"
+	"atn/OrderedATNConfigSet.h"
+	"Token.h"
+	"LexerNoViableAltException.h"
+	"atn/RuleStopState.h"
+	"atn/RuleTransition.h"
+	"atn/SingletonPredictionContext.h"
+	"atn/PredicateTransition.h"
+	"atn/ActionTransition.h"
+	"atn/TokensStartState.h"
+	"misc/Interval.h"
+	"dfa/DFA.h"
+	"Lexer.h"
+	"dfa/DFAState.h"
+	"atn/LexerATNConfig.h"
+	"atn/LexerActionExecutor.h"
+	"atn/EmptyPredictionContext.h"
+	"atn/LexerATNSimulator.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerChannelAction.cpp
+	"misc/MurmurHash.h"
+	"Lexer.h"
+	"atn/LexerChannelAction.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerCustomAction.cpp
+	"misc/MurmurHash.h"
+	"support/CPPUtils.h"
+	"Lexer.h"
+	"atn/LexerCustomAction.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerDFASerializer.cpp
+	"Vocabulary.h"
+	"dfa/LexerDFASerializer.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerIndexedCustomAction.cpp
+	"misc/MurmurHash.h"
+	"Lexer.h"
+	"support/CPPUtils.h"
+	"atn/LexerIndexedCustomAction.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerInterpreter.cpp
+	"atn/ATNType.h"
+	"atn/LexerATNSimulator.h"
+	"dfa/DFA.h"
+	"atn/EmptyPredictionContext.h"
+	"Exceptions.h"
+	"Vocabulary.h"
+	"LexerInterpreter.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerModeAction.cpp
+	"misc/MurmurHash.h"
+	"Lexer.h"
+	"atn/LexerModeAction.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerMoreAction.cpp
+	"misc/MurmurHash.h"
+	"Lexer.h"
+	"atn/LexerMoreAction.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerNoViableAltException.cpp
+	"misc/Interval.h"
+	"support/CPPUtils.h"
+	"CharStream.h"
+	"Lexer.h"
+	"LexerNoViableAltException.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerPopModeAction.cpp
+	"misc/MurmurHash.h"
+	"Lexer.h"
+	"atn/LexerPopModeAction.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerPushModeAction.cpp
+	"misc/MurmurHash.h"
+	"Lexer.h"
+	"atn/LexerPushModeAction.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerSkipAction.cpp
+	"misc/MurmurHash.h"
+	"Lexer.h"
+	"atn/LexerSkipAction.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LexerTypeAction.cpp
+	"misc/MurmurHash.h"
+	"Lexer.h"
+	"atn/LexerTypeAction.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ListTokenSource.cpp
+	"Token.h"
+	"CommonToken.h"
+	"CharStream.h"
+	"ListTokenSource.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LL1Analyzer.cpp
+	"atn/RuleStopState.h"
+	"atn/Transition.h"
+	"atn/RuleTransition.h"
+	"atn/SingletonPredictionContext.h"
+	"atn/AbstractPredicateTransition.h"
+	"atn/WildcardTransition.h"
+	"atn/NotSetTransition.h"
+	"misc/IntervalSet.h"
+	"atn/ATNConfig.h"
+	"atn/EmptyPredictionContext.h"
+	"support/CPPUtils.h"
+	"atn/LL1Analyzer.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LookaheadEventInfo.cpp
+	"atn/LookaheadEventInfo.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/LoopEndState.cpp
+	"atn/LoopEndState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/MurmurHash.cpp
+	"misc/MurmurHash.h"
+	<stdlib.h>
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/NotSetTransition.cpp
+	"atn/NotSetTransition.h"
+	"atn/ATNState.h"
+	"misc/IntervalSet.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/NoViableAltException.cpp
+	"Parser.h"
+	"NoViableAltException.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/OrderedATNConfigSet.cpp
+	"atn/OrderedATNConfigSet.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ParseInfo.cpp
+	"atn/ProfilingATNSimulator.h"
+	"dfa/DFA.h"
+	"atn/ParseInfo.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/Parser.cpp
+	"atn/ATNDeserializationOptions.h"
+	"tree/pattern/ParseTreePatternMatcher.h"
+	"dfa/DFA.h"
+	"ParserRuleContext.h"
+	"tree/TerminalNode.h"
+	"tree/ErrorNodeImpl.h"
+	"Lexer.h"
+	"atn/ParserATNSimulator.h"
+	"misc/IntervalSet.h"
+	"atn/RuleStartState.h"
+	"DefaultErrorStrategy.h"
+	"atn/ATNDeserializer.h"
+	"atn/RuleTransition.h"
+	"atn/ATN.h"
+	"Exceptions.h"
+	"ANTLRErrorListener.h"
+	"tree/pattern/ParseTreePattern.h"
+	"atn/ProfilingATNSimulator.h"
+	"atn/ParseInfo.h"
+	"Parser.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ParserATNSimulator.cpp
+	"dfa/DFA.h"
+	"NoViableAltException.h"
+	"atn/DecisionState.h"
+	"ParserRuleContext.h"
+	"misc/IntervalSet.h"
+	"Parser.h"
+	"CommonTokenStream.h"
+	"atn/EmptyPredictionContext.h"
+	"atn/NotSetTransition.h"
+	"atn/AtomTransition.h"
+	"atn/RuleTransition.h"
+	"atn/PredicateTransition.h"
+	"atn/PrecedencePredicateTransition.h"
+	"atn/ActionTransition.h"
+	"atn/EpsilonTransition.h"
+	"atn/RuleStopState.h"
+	"atn/ATNConfigSet.h"
+	"atn/ATNConfig.h"
+	"atn/StarLoopEntryState.h"
+	"atn/BlockStartState.h"
+	"atn/BlockEndState.h"
+	"misc/Interval.h"
+	"ANTLRErrorListener.h"
+	"Vocabulary.h"
+	"support/Arrays.h"
+	"atn/ParserATNSimulator.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ParserInterpreter.cpp
+	"dfa/DFA.h"
+	"atn/RuleStartState.h"
+	"InterpreterRuleContext.h"
+	"atn/ParserATNSimulator.h"
+	"ANTLRErrorStrategy.h"
+	"atn/LoopEndState.h"
+	"FailedPredicateException.h"
+	"atn/StarLoopEntryState.h"
+	"atn/AtomTransition.h"
+	"atn/RuleTransition.h"
+	"atn/PredicateTransition.h"
+	"atn/PrecedencePredicateTransition.h"
+	"atn/ActionTransition.h"
+	"atn/ATN.h"
+	"atn/RuleStopState.h"
+	"Lexer.h"
+	"Token.h"
+	"Vocabulary.h"
+	"InputMismatchException.h"
+	"CommonToken.h"
+	"tree/ErrorNode.h"
+	"support/CPPUtils.h"
+	"ParserInterpreter.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ParserRuleContext.cpp
+	"tree/TerminalNode.h"
+	"tree/ErrorNode.h"
+	"misc/Interval.h"
+	"Parser.h"
+	"Token.h"
+	"support/CPPUtils.h"
+	"ParserRuleContext.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ParseTree.cpp
+	"tree/ParseTree.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ParseTreeMatch.cpp
+	"Exceptions.h"
+	"tree/pattern/ParseTreeMatch.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ParseTreePattern.cpp
+	"tree/ParseTree.h"
+	"tree/pattern/ParseTreePatternMatcher.h"
+	"tree/pattern/ParseTreeMatch.h"
+	"tree/xpath/XPath.h"
+	"tree/xpath/XPathElement.h"
+	"tree/pattern/ParseTreePattern.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ParseTreePatternMatcher.cpp
+	"tree/pattern/ParseTreePattern.h"
+	"tree/pattern/ParseTreeMatch.h"
+	"tree/TerminalNode.h"
+	"CommonTokenStream.h"
+	"ParserInterpreter.h"
+	"tree/pattern/TokenTagToken.h"
+	"ParserRuleContext.h"
+	"tree/pattern/RuleTagToken.h"
+	"tree/pattern/TagChunk.h"
+	"atn/ATN.h"
+	"Lexer.h"
+	"BailErrorStrategy.h"
+	"ListTokenSource.h"
+	"tree/pattern/TextChunk.h"
+	"ANTLRInputStream.h"
+	"support/Arrays.h"
+	"Exceptions.h"
+	"support/StringUtils.h"
+	"support/CPPUtils.h"
+	"tree/pattern/ParseTreePatternMatcher.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ParseTreeWalker.cpp
+	"tree/ErrorNode.h"
+	"ParserRuleContext.h"
+	"tree/ParseTreeListener.h"
+	"support/CPPUtils.h"
+	"tree/IterativeParseTreeWalker.h"
+	"tree/ParseTreeWalker.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/PlusBlockStartState.cpp
+	"atn/PlusBlockStartState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/PlusLoopbackState.cpp
+	"atn/PlusLoopbackState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/PrecedencePredicateTransition.cpp
+	"atn/PrecedencePredicateTransition.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/PredicateEvalInfo.cpp
+	"SemanticContext.h"
+	"atn/PredicateEvalInfo.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/PredicateTransition.cpp
+	"atn/PredicateTransition.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/PredictionContext.cpp
+	"atn/EmptyPredictionContext.h"
+	"misc/MurmurHash.h"
+	"atn/ArrayPredictionContext.h"
+	"RuleContext.h"
+	"ParserRuleContext.h"
+	"atn/RuleTransition.h"
+	"support/Arrays.h"
+	"support/CPPUtils.h"
+	"atn/PredictionContext.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/PredictionMode.cpp
+	"atn/RuleStopState.h"
+	"atn/ATNConfigSet.h"
+	"atn/ATNConfig.h"
+	"misc/MurmurHash.h"
+	"SemanticContext.h"
+	"PredictionMode.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ProfilingATNSimulator.cpp
+	"atn/PredicateEvalInfo.h"
+	"atn/LookaheadEventInfo.h"
+	"Parser.h"
+	"atn/ATNConfigSet.h"
+	"support/CPPUtils.h"
+	"atn/ProfilingATNSimulator.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/ProxyErrorListener.cpp
+	"ProxyErrorListener.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/RangeTransition.cpp
+	"misc/IntervalSet.h"
+	"atn/RangeTransition.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/RecognitionException.cpp
+	"atn/ATN.h"
+	"Recognizer.h"
+	"support/StringUtils.h"
+	"ParserRuleContext.h"
+	"misc/IntervalSet.h"
+	"RecognitionException.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/Recognizer.cpp
+	"ConsoleErrorListener.h"
+	"RecognitionException.h"
+	"support/CPPUtils.h"
+	"support/StringUtils.h"
+	"Token.h"
+	"atn/ATN.h"
+	"atn/ATNSimulator.h"
+	"support/CPPUtils.h"
+	"Vocabulary.h"
+	"Recognizer.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/RuleContext.cpp
+	"tree/Trees.h"
+	"misc/Interval.h"
+	"Parser.h"
+	"atn/ATN.h"
+	"atn/ATNState.h"
+	"tree/ParseTreeVisitor.h"
+	"RuleContext.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/RuleContextWithAltNum.cpp
+	"atn/ATN.h"
+	"RuleContextWithAltNum.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/RuleStartState.cpp
+	"atn/RuleStartState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/RuleStopState.cpp
+	"atn/RuleStopState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/RuleTagToken.cpp
+	"Exceptions.h"
+	"tree/pattern/RuleTagToken.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/RuleTransition.cpp
+	"atn/RuleStartState.h"
+	"atn/RuleTransition.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/RuntimeMetaData.cpp
+	"RuntimeMetaData.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/SemanticContext.cpp
+	"misc/MurmurHash.h"
+	"support/CPPUtils.h"
+	"support/Arrays.h"
+	"SemanticContext.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/SetTransition.cpp
+	"Token.h"
+	"misc/IntervalSet.h"
+	"atn/SetTransition.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/SingletonPredictionContext.cpp
+	"atn/EmptyPredictionContext.h"
+	"atn/SingletonPredictionContext.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/StarBlockStartState.cpp
+	"atn/StarBlockStartState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/StarLoopbackState.cpp
+	"atn/StarLoopEntryState.h"
+	"atn/Transition.h"
+	"atn/StarLoopbackState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/StarLoopEntryState.cpp
+	"atn/StarLoopEntryState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/StringUtils.cpp
+	"support/StringUtils.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/TagChunk.cpp
+	"Exceptions.h"
+	"tree/pattern/TagChunk.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/TerminalNodeImpl.cpp
+	"misc/Interval.h"
+	"Token.h"
+	"RuleContext.h"
+	"tree/ParseTreeVisitor.h"
+	"tree/TerminalNodeImpl.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/TextChunk.cpp
+	"Exceptions.h"
+	"tree/pattern/TextChunk.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/TokensStartState.cpp
+	"atn/TokensStartState.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/TokenStream.cpp
+	"TokenStream.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/TokenStreamRewriter.cpp
+	"Exceptions.h"
+	"misc/Interval.h"
+	"Token.h"
+	"TokenStream.h"
+	"TokenStreamRewriter.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/TokenTagToken.cpp
+	"tree/pattern/TokenTagToken.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/Transition.cpp
+	"Exceptions.h"
+	"support/Arrays.h"
+	"atn/Transition.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/Trees.cpp
+	"tree/ErrorNode.h"
+	"Parser.h"
+	"ParserRuleContext.h"
+	"support/CPPUtils.h"
+	"tree/TerminalNodeImpl.h"
+	"atn/ATN.h"
+	"misc/Interval.h"
+	"Token.h"
+	"CommonToken.h"
+	"misc/Predicate.h"
+	"tree/Trees.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/UnbufferedCharStream.cpp
+	"misc/Interval.h"
+	"Exceptions.h"
+	"support/StringUtils.h"
+	"UnbufferedCharStream.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/UnbufferedTokenStream.cpp
+	"Token.h"
+	"Exceptions.h"
+	"assert.h"
+	"TokenSource.h"
+	"support/Arrays.h"
+	"misc/Interval.h"
+	"RuleContext.h"
+	"WritableToken.h"
+	"UnbufferedTokenStream.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/Vocabulary.cpp
+	"Token.h"
+	"Vocabulary.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/WildcardTransition.cpp
+	"atn/ATNState.h"
+	"atn/WildcardTransition.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/XPath.cpp
+	"XPathLexer.h"
+	"XPathLexerErrorListener.h"
+	"XPathElement.h"
+	"XPathWildcardAnywhereElement.h"
+	"XPathWildcardElement.h"
+	"XPathTokenAnywhereElement.h"
+	"XPathTokenElement.h"
+	"XPathRuleAnywhereElement.h"
+	"XPathRuleElement.h"
+	"XPath.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/XPathElement.cpp
+	"support/CPPUtils.h"
+	"XPathElement.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/XPathLexer.cpp
+	"XPathLexer.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/XPathLexerErrorListener.cpp
+	"XPathLexerErrorListener.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/XPathRuleAnywhereElement.cpp
+	"tree/ParseTree.h"
+	"tree/Trees.h"
+	"tree/xpath/XPathRuleAnywhereElement.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/XPathRuleElement.cpp
+	"tree/ParseTree.h"
+	"tree/Trees.h"
+	"XPathRuleElement.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/XPathTokenAnywhereElement.cpp
+	"tree/ParseTree.h"
+	"tree/Trees.h"
+	"XPathTokenAnywhereElement.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/XPathTokenElement.cpp
+	"tree/ParseTree.h"
+	"tree/Trees.h"
+	"support/CPPUtils.h"
+	"Token.h"
+	"XPathTokenElement.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/XPathWildcardAnywhereElement.cpp
+	"XPath.h"
+	"tree/ParseTree.h"
+	"tree/Trees.h"
+	"XPathWildcardAnywhereElement.h"
+
+1497255598 source:/home/zy/C++/KQueryParserC++/src/runtime/XPathWildcardElement.cpp
+	"XPath.h"
+	"tree/ParseTree.h"
+	"tree/Trees.h"
+	"XPathWildcardElement.h"
+
+1525325150 source:/home/zy/C++/KQueryParserC++/src/transfrom/SymbolicVar.cpp
+	<string>
+	<string.h>
+	<sstream>
+	<vector>
+	<stack>
+	<iostream>
+	"SymbolicVar.h"
+
+1500785060 /home/zy/C++/KQueryParserC++/include/transfrom/SymbolicVar.h
+	<string>
+	<vector>
+	<stack>
+
+1543576468 /home/zy/C++/KQueryParserC++/include/transfrom/Transform.h
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	<stack>
+	<map>
+	"antlr4-runtime.h"
+	"KQueryLexer.h"
+	"KQueryParser.h"
+	"ParserRuleContext.h"
+	"SymbolicVar.h"
+	"Transform.h"
+	"Expression.h"
+	"IDInfo.h"
+	"ArrayElement.h"
+	"Solver.h"
+	"InverseIIBasedOI.h"
+
+1551860891 source:/home/zy/C++/KQueryParserC++/src/transfrom/Transform.cpp
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	<stack>
+	<regex>
+	"antlr4-runtime.h"
+	"KQueryLexer.h"
+	"KQueryParser.h"
+	"ParserRuleContext.h"
+	"ParseTree.h"
+	"SymbolicVar.h"
+	"Transform.h"
+	"Expression.h"
+	"GlobalFunction.h"
+	"IDInfo.h"
+	"ArrayElement.h"
+	"Solver.h"
+	"InverseIIBasedOI.h"
+
+1500785060 source:/home/zy/C++/KQueryParserC++/src/transfrom/Expression.cpp
+	"Expression.h"
+	<iostream>
+	<string>
+	<sstream>
+
+1500785060 /home/zy/C++/KQueryParserC++/include/transfrom/Expression.h
+	<string>
+
+1500785060 /home/zy/C++/KQueryParserC++/include/transfrom/Test.h
+	<string>
+	<regex>
+	<iostream>
+	<map>
+	"Solver.h"
+
+1543732017 /home/zy/C++/KQueryParserC++/include/transfrom/GlobalFunction.h
+	<string>
+	<regex>
+	<vector>
+	<sstream>
+	"Expression.h"
+
+1500785060 /home/zy/C++/KQueryParserC++/include/transfrom/IDInfo.h
+	<iostream>
+	<string>
+
+1500785060 /home/zy/C++/KQueryParserC++/include/transfrom/ArrayElement.h
+	<string>
+	<sstream>
+	<vector>
+	"SymbolicVar.h"
+
+1543576443 /home/zy/C++/KQueryParserC++/include/transfrom/Solver.h
+	<string>
+	<map>
+	<iostream>
+
+1543475026 source:/home/zy/C++/KQueryParserC++/src/transfrom/Solver.cpp
+	<string>
+	<vector>
+	<map>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<sstream>
+	<fstream>
+	<istream>
+	<unistd.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/wait.h>
+	"Solver.h"
+
+1500724493 /home/zy/C++/KQueryParserC++/include/transfrom/KQueryParser.h
+
+1500785060 /home/zy/C++/KQueryParserC++/include/transfrom/ParserAPI.h
+	<string.h>
+
+1500785060 source:/home/zy/C++/KQueryParserC++/src/transfrom/ParserAPI.cpp
+	<iostream>
+	<vector>
+	<string>
+	<string.h>
+	<regex>
+	<map>
+	"antlr4-runtime.h"
+	"KQueryLexer.h"
+	"KQueryParser.h"
+	"ParserRuleContext.h"
+	"ParserAPI.h"
+	"SymbolicVar.h"
+	"Transform.h"
+
+1551947455 source:/home/zy/C++/KQueryParserC++/src/transfrom/LFFBuilder.cpp
+	<iostream>
+	<vector>
+	<string>
+	<string.h>
+	<regex>
+	<map>
+	"antlr4-runtime.h"
+	"KQueryLexer.h"
+	"KQueryParser.h"
+	"ParserRuleContext.h"
+	"SymbolicVar.h"
+	"Transform.h"
+	"string.h"
+	"ArrayElement.h"
+	"LFFBuilder.h"
+	"time.h"
+
+1528201329 /home/zy/C++/KQueryParserC++/include/transfrom/LFFBuilder.h
+
+1551947467 source:/home/zy/C++/KQueryParserC++/src/transfrom/PLFFBuilder.cpp
+	<iostream>
+	<vector>
+	<string>
+	<string.h>
+	<regex>
+	<map>
+	"antlr4-runtime.h"
+	"KQueryLexer.h"
+	"KQueryParser.h"
+	"ParserRuleContext.h"
+	"SymbolicVar.h"
+	"Transform.h"
+	"string.h"
+	"ArrayElement.h"
+	"PLFFBuilder.h"
+	"time.h"
+
+1528200342 /home/zy/C++/KQueryParserC++/include/transfrom/PLFFBuilder.h
+
+1551947454 source:/home/zy/C++/KQueryParserC++/src/transfrom/InverseIIBasedOIBuilder.cpp
+	<iostream>
+	<vector>
+	<string>
+	<string.h>
+	<regex>
+	<map>
+	"antlr4-runtime.h"
+	"KQueryLexer.h"
+	"KQueryParser.h"
+	"ParserRuleContext.h"
+	"SymbolicVar.h"
+	"Transform.h"
+	"string.h"
+	"ArrayElement.h"
+	"InverseIIBasedOIBuilder.h"
+	"time.h"
+
+1543574267 /home/zy/C++/KQueryParserC++/include/transfrom/InverseIIBasedOIBuilder.h
+
+1551861157 source:/home/zy/C++/KQueryParserC++/src/transfrom/InverseIIBasedOI.cpp
+	<string>
+	<vector>
+	<map>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<sstream>
+	<fstream>
+	<istream>
+	<regex>
+	<Python.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/wait.h>
+	"SymbolicVar.h"
+	"Transform.h"
+	"Expression.h"
+	"IDInfo.h"
+	"ArrayElement.h"
+	"GlobalFunction.h"
+	"Expression.h"
+	"IntervalPoint.h"
+	"InverseIIBasedOI.h"
+
+1551861040 /home/zy/C++/KQueryParserC++/include/transfrom/InverseIIBasedOI.h
+	<string>
+	<vector>
+	<map>
+	<set>
+	<string>
+	<iostream>
+	<sstream>
+	"antlr4-runtime.h"
+	"KQueryLexer.h"
+	"KQueryParser.h"
+	"ParserRuleContext.h"
+	"SymbolicVar.h"
+	"Transform.h"
+	"Expression.h"
+	"IDInfo.h"
+	"ArrayElement.h"
+	"Expression.h"
+	"IntervalPoint.h"
+
+1543816586 source:/home/zy/C++/KQueryParserC++/src/transfrom/IntervalPoint.cpp
+	"IntervalPoint.h"
+	<iostream>
+	<algorithm>
+
+1543578033 /home/zy/C++/KQueryParserC++/include/transfrom/IntervalPoint.h
+	<ostream>
+	<iostream>
+	<limits>
+

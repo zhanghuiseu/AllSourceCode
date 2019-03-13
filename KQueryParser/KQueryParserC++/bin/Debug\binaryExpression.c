@@ -1,0 +1,1 @@
+int main(){if(((DOUBLE_ARRAY_1_5_doubleA_0>=INT_ARRAY_1_5_intB_0))&&((DOUBLE_ARRAY_1_5_doubleA_1>3.3330000000000002E+0))){}}

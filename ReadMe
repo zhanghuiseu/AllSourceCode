@@ -1,0 +1,5 @@
+代码清单描述：
+1）KleeFloat 给出的我们在添加到求解器后端的代码；
+2）KQueryParser给出的是Parser的代码；
+3）LFFSolver给出的是线性拟合串行求解器；
+4）PLFFSolver给出的是线性拟合并行求解器；
